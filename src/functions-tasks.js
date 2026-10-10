@@ -91,8 +91,6 @@ function getPolynom(/* ...coefficients */) {
   throw new Error('Not implemented');
 }
 
-
-
 /**
  * Memoizes passed function and returns function
  * which invoked first time calls the passed function and then always returns cached result.
